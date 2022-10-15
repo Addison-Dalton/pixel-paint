@@ -25,6 +25,8 @@ const PaintBox = () => {
             key={`pixel[${rowIndex}][${colIndex}]`}
             color={pixel?.color}
             size={pixelSize}
+            row={rowIndex}
+            col={colIndex} 
           />
         ))
       )}

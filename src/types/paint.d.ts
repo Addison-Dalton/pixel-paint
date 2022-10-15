@@ -11,3 +11,13 @@ type PaintBox = {
   matrix: PixelMatrix; // matrix to track each pixel
 };
 
+type Tool = 'brush' | 'fill' | 'eyedrop';
+
+type ToolsStore = {
+  selectedTool: Tool
+  colorPalette: string[];
+  selectedColor: string;
+};
+
+// TODO - might move pixelSize, rowCount, and colCount to controls?
+type Controls = {};
