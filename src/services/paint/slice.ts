@@ -7,8 +7,8 @@ type ChangeBoxCount = {
   count: number;
 };
 
-const DEFAULT_ROW_COUNT = 30;
-const DEFAULT_COL_COUNT = 30;
+const DEFAULT_ROW_COUNT = 10;
+const DEFAULT_COL_COUNT = 10;
 
 const initialState: PaintBox = {
   pixelSize: 50,
